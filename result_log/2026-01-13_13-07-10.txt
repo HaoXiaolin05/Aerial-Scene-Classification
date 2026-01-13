@@ -1,0 +1,40 @@
+CONFIG: IMG_SIZE=512, TEST_SPLIT=0.2, SEED=None, KERNEL=rbf, PIXELS_PER_CELL=(128, 128)
+
+ACCURACY: 70.00% | TRAINING TIME: 11.93s
+
+                   precision    recall  f1-score   support
+
+          Airport       0.60      0.64      0.62        92
+         BareLand       0.82      0.77      0.79        65
+    BaseballField       0.70      0.78      0.74        40
+            Beach       0.80      0.77      0.79        84
+           Bridge       0.88      0.84      0.86        81
+           Center       0.57      0.52      0.54        50
+           Church       0.74      0.68      0.71        50
+       Commercial       0.56      0.60      0.58        57
+ DenseResidential       0.65      0.89      0.75        82
+           Desert       0.83      0.87      0.85        62
+         Farmland       0.62      0.70      0.66        76
+           Forest       0.92      0.90      0.91        63
+       Industrial       0.65      0.51      0.57        76
+           Meadow       0.75      0.93      0.83        43
+MediumResidential       0.89      0.76      0.82        66
+         Mountain       0.76      0.85      0.80        60
+             Park       0.51      0.58      0.54        69
+          Parking       0.87      0.77      0.82        69
+       Playground       0.78      0.79      0.79        78
+             Pond       0.84      0.80      0.82        86
+             Port       0.65      0.75      0.70        81
+   RailwayStation       0.59      0.75      0.66        36
+           Resort       0.47      0.35      0.40        62
+            River       0.57      0.52      0.55        86
+           School       0.43      0.38      0.40        55
+SparseResidential       0.72      0.84      0.78        58
+           Square       0.58      0.37      0.45        67
+          Stadium       0.78      0.82      0.80        49
+     StorageTanks       0.53      0.49      0.51        71
+          Viaduct       0.82      0.78      0.80        86
+
+         accuracy                           0.70      2000
+        macro avg       0.70      0.70      0.69      2000
+     weighted avg       0.70      0.70      0.70      2000

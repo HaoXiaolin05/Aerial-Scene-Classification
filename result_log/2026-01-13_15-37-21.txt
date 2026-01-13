@@ -1,0 +1,40 @@
+CONFIG: IMG_SIZE=512, TEST_SPLIT=0.8, SEED=None, KERNEL=rbf, PIXELS_PER_CELL=(128, 128)
+
+ACCURACY: 58.43% | TRAINING TIME: 0.90s
+
+                   precision    recall  f1-score   support
+
+          Airport       0.41      0.56      0.47       282
+         BareLand       0.68      0.87      0.76       238
+    BaseballField       0.63      0.57      0.60       173
+            Beach       0.67      0.65      0.66       320
+           Bridge       0.73      0.67      0.70       300
+           Center       0.55      0.29      0.38       213
+           Church       0.66      0.53      0.59       189
+       Commercial       0.38      0.51      0.43       266
+ DenseResidential       0.45      0.67      0.54       319
+           Desert       0.93      0.74      0.83       243
+         Farmland       0.53      0.50      0.51       296
+           Forest       0.76      0.74      0.75       203
+       Industrial       0.56      0.50      0.53       323
+           Meadow       0.69      0.85      0.76       207
+MediumResidential       0.60      0.50      0.54       237
+         Mountain       0.67      0.74      0.71       268
+             Park       0.50      0.52      0.51       284
+          Parking       0.73      0.57      0.64       322
+       Playground       0.69      0.75      0.72       291
+             Pond       0.76      0.80      0.78       342
+             Port       0.54      0.70      0.61       303
+   RailwayStation       0.74      0.57      0.65       215
+           Resort       0.32      0.37      0.34       230
+            River       0.42      0.42      0.42       325
+           School       0.40      0.30      0.34       241
+SparseResidential       0.69      0.68      0.68       238
+           Square       0.33      0.27      0.30       262
+          Stadium       0.75      0.66      0.70       226
+     StorageTanks       0.41      0.36      0.38       295
+          Viaduct       0.72      0.60      0.66       349
+
+         accuracy                           0.58      8000
+        macro avg       0.60      0.58      0.58      8000
+     weighted avg       0.59      0.58      0.58      8000
