@@ -17,10 +17,10 @@ This project uses the **AID Scene Classification Dataset**.
 ### How to Download
 The code uses the `opendatasets` library to automatically download the dataset. **You do not need to download it manually.** However, because the data is hosted on Kaggle, you need a Kaggle account and an API Token.
 
-1.  **Get your API Key:** Go to your [Kaggle Account Settings](https://www.kaggle.com/settings), scroll to "API", and click **"Create New Token"**. This downloads a `kaggle.json` file.
+1.  **Get your API Key:** Go to your [Kaggle Account Settings](https://www.kaggle.com/settings), scroll to "API", and click **"Generate New Token"**.
 2.  **Run the script:** When you run `main.py` or `loop.py` for the first time, the terminal will ask for your:
-    * **Kaggle Username** (found in the JSON file)
-    * **Kaggle Key** (found in the JSON file)
+    * **Kaggle Username**
+    * **Kaggle Key**
 
 ## 🛠 Project Structure & Files
 
