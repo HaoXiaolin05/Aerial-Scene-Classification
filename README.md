@@ -1,6 +1,10 @@
 # Aerial Scene Classification with SVM
 
-This project implements a classical machine learning approach for Aerial Scene Classification using the **AID (Aerial Image Dataset)**. It employs a **Feature Fusion** strategy, combining **HOG (Histogram of Oriented Gradients)** for structural details and **Color Histograms** for spectral information, fed into a **Support Vector Machine (SVM)** classifier.
+This project was developed as an individual assignment for the **Machine Learning (CO3117)** course at **Ho Chi Minh City University of Technology (HCMUT - VNU-HCM)**.
+
+It implements a classical machine learning approach for Aerial Scene Classification using the **AID (Aerial Image Dataset)**. The solution employs a **Feature Fusion** strategy, combining **HOG (Histogram of Oriented Gradients)** to capture structural details and **Color Histograms** for spectral information. These fused features are then processed by a **Support Vector Machine (SVM)** classifier to categorize aerial imagery.
+
+## 📖 Overview
 
 ## 📖 Overview
 
